@@ -1,5 +1,3 @@
-Here’s a neat profile README file for your project in Markdown format:
-
 # 📈 Time-Series Forecasting
 
 Stock Price forecasting using time series techniques and LSTM.
