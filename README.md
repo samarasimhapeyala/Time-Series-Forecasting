@@ -1,8 +1,6 @@
 # 📈 Time-Series Forecasting
 
-Stock Price forecasting using time series techniques and LSTM.
-
-# 📁 Project Structure
+## 📁 Project Structure
 
 This repository contains the following folders:
    
@@ -36,11 +34,11 @@ This project predicts and forecasts stock prices using Stacked Long Short-Term M
 - The model predictions are compared with actual stock prices using matplotlib.
 - Results demonstrate the model's ability to capture trends and fluctuations in stock prices.
 
+---
+
 ## 2. 📈 Univariate Time Series Forecasting Using LSTM
 
 This project demonstrates how to use Long Short-Term Memory (LSTM) networks to perform univariate time series forecasting. The focus is on predicting future values based on a single variable's historical data.
-
----
 
 ## 🗂 Overview
 
@@ -64,13 +62,9 @@ This project demonstrates how to use Long Short-Term Memory (LSTM) networks to p
 - The original time series and the predicted future values are visualized using matplotlib.
 - This allows for a clear comparison between the known data and the forecasted values.
 
----
-
 ## 🔍 Results
 - The model successfully forecasts the next 10 values in the series.
 - Predictions demonstrate the LSTM's ability to learn and extend patterns in the time series.
-
----
 
 ## 📋 How to Use
 1. Prepare your univariate time series data.
@@ -79,24 +73,6 @@ This project demonstrates how to use Long Short-Term Memory (LSTM) networks to p
 4. Use the trained model to predict future values iteratively.
 5. Visualize the results for validation.
 
----
-
 This project is a great starting point for building advanced time series forecasting models tailored to real-world datasets.
-
-
-## 💡 About
-
-This project aims to forecast stock prices by leveraging time-series analysis methods such as:
-
-- Traditional statistical models
-- Machine learning approaches
-- Long Short-Term Memory (LSTM) neural networks
-
-## 🚀 Features
-
-- Implementation of statistical models like ARIMA and SARIMA
-- Machine Learning-based time-series forecasting
-- Deep learning methods with LSTM for improved accuracy
-
 
 Feel free to fork and contribute to this project! 😊
