@@ -20,17 +20,6 @@ This project aims to forecast stock prices by leveraging time-series analysis me
 - Machine learning approaches
 - Long Short-Term Memory (LSTM) neural networks
 
-## 🔧 Getting Started
-
-1. Clone the repository:
-   ```
-   git clone https://github.com/<username>/<repository-name>.git
-   ```
-2. Install the required dependencies (check each folder for specific requirements).
-
-3. Run the scripts in their respective folders to explore various forecasting techniques.
-
-
 ## 🚀 Features
 
 - Implementation of statistical models like ARIMA and SARIMA
