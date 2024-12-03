@@ -2,13 +2,11 @@
 
 Stock Price forecasting using time series techniques and LSTM.
 
-## 📁 Project Structure
+# 📁 Project Structure
 
 This repository contains the following folders:
-
-1. **Stock Market Forecasting**  
-   Techniques and methods for stock market price prediction.
-# 📈 Stock Market Prediction and Forecasting Using Stacked LSTM
+   
+## 1. 📈 Stock Market Prediction and Forecasting Using Stacked LSTM
 
 This project predicts and forecasts stock prices using Stacked Long Short-Term Memory (LSTM) networks, a type of recurrent neural network (RNN) well-suited for time-series data.
 
@@ -38,12 +36,53 @@ This project predicts and forecasts stock prices using Stacked Long Short-Term M
 - The model predictions are compared with actual stock prices using matplotlib.
 - Results demonstrate the model's ability to capture trends and fluctuations in stock prices.
 
-## 🔍 Conclusion
-This project successfully applies Stacked LSTMs to predict stock prices with good accuracy, providing a strong foundation for future time-series forecasting tasks.
+## 2. 📈 Univariate Time Series Forecasting Using LSTM
 
+This project demonstrates how to use Long Short-Term Memory (LSTM) networks to perform univariate time series forecasting. The focus is on predicting future values based on a single variable's historical data.
 
-3. **Univariate Time Series Forecasting**  
-   Implementation of forecasting for single-variable time series data.
+---
+
+## 🗂 Overview
+
+### 📊 Data
+- A simple univariate time series dataset is used: `[110, 125, 133, 146, 158, 172, 187, 196, 210]`.
+- The sequence is split into sliding windows of input (`X`) and target (`y`) values, with each sample containing 3 timesteps.
+
+### 🧠 Model
+- **LSTM Architecture**:
+  - Two stacked LSTM layers with 50 units each, using ReLU activation.
+  - One Dense layer with 1 neuron for the output.
+  - The model is compiled with the **Adam optimizer** and **Mean Squared Error (MSE)** as the loss function.
+- The model is trained for **300 epochs** on the prepared dataset.
+
+### 📈 Prediction
+- After training, the model predicts the next 10 values in the series using a loop-based approach:
+  - Each prediction is fed back into the input to generate subsequent forecasts.
+  - The predicted values extend the time series into the future.
+
+### 📉 Visualization
+- The original time series and the predicted future values are visualized using matplotlib.
+- This allows for a clear comparison between the known data and the forecasted values.
+
+---
+
+## 🔍 Results
+- The model successfully forecasts the next 10 values in the series.
+- Predictions demonstrate the LSTM's ability to learn and extend patterns in the time series.
+
+---
+
+## 📋 How to Use
+1. Prepare your univariate time series data.
+2. Adjust the number of timesteps (`n_steps`) as required for your use case.
+3. Train the LSTM model using the provided architecture.
+4. Use the trained model to predict future values iteratively.
+5. Visualize the results for validation.
+
+---
+
+This project is a great starting point for building advanced time series forecasting models tailored to real-world datasets.
+
 
 ## 💡 About
 
