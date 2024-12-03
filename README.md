@@ -74,5 +74,3 @@ This project demonstrates how to use Long Short-Term Memory (LSTM) networks to p
 5. Visualize the results for validation.
 
 This project is a great starting point for building advanced time series forecasting models tailored to real-world datasets.
-
-Feel free to fork and contribute to this project! 😊
