@@ -27,8 +27,8 @@ This project predicts and forecasts stock prices using Stacked Long Short-Term M
 
 ### 📈 Evaluation
 - Root Mean Squared Error (RMSE) is calculated for both training and testing predictions:
-  - **Training RMSE**: 182.70
-  - **Testing RMSE**: 24.00
+  - **Training RMSE**: 
+  - **Testing RMSE**: 
 
 ### 📉 Visualization
 - The model predictions are compared with actual stock prices using matplotlib.
